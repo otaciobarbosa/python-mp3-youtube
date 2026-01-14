@@ -13,7 +13,7 @@ Script Python para baixar vídeos do YouTube e converter automaticamente para MP
 
 ### 1. Clone o repositório:
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/otaciobarbosa/mp3_youtube.git
 cd mp3_youtube
 ```
 
