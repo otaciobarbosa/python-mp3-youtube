@@ -1,5 +1,10 @@
 # YouTube to MP3 Downloader
 
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![CI](https://github.com/otaciobarbosa/mp3_youtube/workflows/CI/badge.svg)
+![GitHub release](https://img.shields.io/github/v/release/otaciobarbosa/mp3_youtube)
+
 Script Python para baixar vídeos do YouTube e converter automaticamente para MP3.
 
 ## 📋 Funcionalidades
@@ -59,3 +64,7 @@ O script está configurado para:
 - A pasta `musicas/` e os arquivos MP3 são ignorados pelo Git
 - Certifique-se de ter conexão estável com a internet
 - Respeite os direitos autorais ao baixar conteúdo
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
