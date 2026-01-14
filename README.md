@@ -1,26 +1,61 @@
-# Instalação e uso
+# YouTube to MP3 Downloader
 
-## 1. Instalar dependências necessárias:
+Script Python para baixar vídeos do YouTube e converter automaticamente para MP3.
+
+## 📋 Funcionalidades
+
+- Baixa múltiplas músicas/vídeos do YouTube de uma vez
+- Converte automaticamente para MP3
+- Lê URLs de um arquivo de texto
+- Salva as músicas em uma pasta dedicada
+
+## 🚀 Como usar
+
+### 1. Clone o repositório:
 ```bash
-pip install yt-dlp
+git clone <url-do-repositorio>
+cd mp3_youtube
 ```
 
-## 2. Instalar FFmpeg (necessário para converter para MP3):
-
-### Windows:
-- Baixe o FFmpeg de: https://www.gyan.dev/ffmpeg/builds/
-- Extraia e adicione o executável ao PATH do sistema
-- Ou use: `choco install ffmpeg` (se tiver Chocolatey)
-- Ou use: `winget install ffmpeg` (Windows 11)
-
-### Alternativa simples:
+### 2. Instale as dependências:
 ```bash
-pip install ffmpeg-python
+pip install yt-dlp imageio-ffmpeg
 ```
 
-## 3. Executar o script:
+### 3. Adicione suas URLs:
+Edite o arquivo `musicas.txt` e adicione as URLs dos vídeos do YouTube (uma por linha).
+
+### 4. Execute o script:
 ```bash
 python download_mp3.py
 ```
 
 Os arquivos MP3 serão salvos na pasta `musicas`.
+
+## 📦 Dependências
+
+- `yt-dlp` - Para baixar vídeos do YouTube
+- `imageio-ffmpeg` - FFmpeg embutido para conversão de áudio
+
+## 📁 Estrutura do projeto
+
+```
+mp3_youtube/
+├── download_mp3.py    # Script principal
+├── musicas.txt        # Lista de URLs para download
+├── musicas/           # Pasta onde os MP3 são salvos
+└── README.md          # Este arquivo
+```
+
+## ⚙️ Configuração
+
+O script está configurado para:
+- Baixar apenas vídeos individuais (não playlists)
+- Converter para MP3 com qualidade de 192kbps
+- Usar FFmpeg embutido (via imageio-ffmpeg)
+
+## 📝 Notas
+
+- A pasta `musicas/` e os arquivos MP3 são ignorados pelo Git
+- Certifique-se de ter conexão estável com a internet
+- Respeite os direitos autorais ao baixar conteúdo
