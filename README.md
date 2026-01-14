@@ -2,8 +2,8 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![CI](https://github.com/otaciobarbosa/mp3_youtube/workflows/CI/badge.svg)
-![GitHub release](https://img.shields.io/github/v/release/otaciobarbosa/mp3_youtube)
+![CI](https://github.com/otaciobarbosa/python-mp3-youtube/workflows/CI/badge.svg)
+![GitHub release](https://img.shields.io/github/v/release/otaciobarbosa/python-mp3-youtube)
 
 Script Python para baixar vídeos do YouTube e converter automaticamente para MP3.
 
@@ -18,8 +18,8 @@ Script Python para baixar vídeos do YouTube e converter automaticamente para MP
 
 ### 1. Clone o repositório:
 ```bash
-git clone https://github.com/otaciobarbosa/mp3_youtube.git
-cd mp3_youtube
+git clone https://github.com/otaciobarbosa/python-mp3-youtube.git
+cd python-mp3-youtube
 ```
 
 ### 2. Instale as dependências:
@@ -45,7 +45,7 @@ Os arquivos MP3 serão salvos na pasta `musicas`.
 ## 📁 Estrutura do projeto
 
 ```
-mp3_youtube/
+python-mp3-youtube/
 ├── download_mp3.py    # Script principal
 ├── musicas.txt        # Lista de URLs para download
 ├── musicas/           # Pasta onde os MP3 são salvos
